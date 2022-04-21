@@ -1,0 +1,6 @@
+framework module Pods_Poland_PolandUITests {
+  umbrella header "Pods-Poland-PolandUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
