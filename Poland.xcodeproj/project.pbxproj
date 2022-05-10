@@ -11,6 +11,9 @@
 		4AE2907C7CB9AB77D1568975 /* Pods_PolandTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06BE37EF6FF43B065042AC5B /* Pods_PolandTests.framework */; };
 		73040D1C27D9C8F100BF9F80 /* EditTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73040D1B27D9C8F100BF9F80 /* EditTableCell.swift */; };
 		73040D1E27D9CB1B00BF9F80 /* AddWordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73040D1D27D9CB1B00BF9F80 /* AddWordViewController.swift */; };
+		7389B1A9282A20C900290219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7389B1A8282A20C900290219 /* GoogleService-Info.plist */; };
+		7389B1AA282A20C900290219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7389B1A8282A20C900290219 /* GoogleService-Info.plist */; };
+		7389B1AB282A20C900290219 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7389B1A8282A20C900290219 /* GoogleService-Info.plist */; };
 		7389CACB27D71C50000C6BD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389CACA27D71C50000C6BD9 /* AppDelegate.swift */; };
 		7389CACD27D71C50000C6BD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389CACC27D71C50000C6BD9 /* SceneDelegate.swift */; };
 		7389CACF27D71C50000C6BD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389CACE27D71C50000C6BD9 /* ViewController.swift */; };
@@ -21,7 +24,6 @@
 		7389CAEC27D71C54000C6BD9 /* TDL0308UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389CAEB27D71C54000C6BD9 /* TDL0308UITests.swift */; };
 		7389CAEE27D71C54000C6BD9 /* TDL0308UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7389CAED27D71C54000C6BD9 /* TDL0308UITestsLaunchTests.swift */; };
 		73B2639C27FD8C2000BB6C4A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B2639B27FD8C2000BB6C4A /* LoginView.swift */; };
-		73B57F1E27F5C98700B6D043 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73B57F1D27F5C98700B6D043 /* GoogleService-Info.plist */; };
 		73B57F2127F5F6A400B6D043 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B57F2027F5F6A400B6D043 /* UserView.swift */; };
 		73BE907127FBFA910069297C /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BE907027FBFA910069297C /* EnterEmailViewController.swift */; };
 		73D79B7F27E1A98800E74D4B /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73D79B7E27E1A98800E74D4B /* Word.swift */; };
@@ -53,6 +55,7 @@
 		50BB09405914613A8C62F1A3 /* Pods-PolandTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PolandTests.release.xcconfig"; path = "Target Support Files/Pods-PolandTests/Pods-PolandTests.release.xcconfig"; sourceTree = "<group>"; };
 		73040D1B27D9C8F100BF9F80 /* EditTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTableCell.swift; sourceTree = "<group>"; };
 		73040D1D27D9CB1B00BF9F80 /* AddWordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWordViewController.swift; sourceTree = "<group>"; };
+		7389B1A8282A20C900290219 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		7389CAC727D71C50000C6BD9 /* Poland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Poland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7389CACA27D71C50000C6BD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7389CACC27D71C50000C6BD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,7 +70,6 @@
 		7389CAEB27D71C54000C6BD9 /* TDL0308UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDL0308UITests.swift; sourceTree = "<group>"; };
 		7389CAED27D71C54000C6BD9 /* TDL0308UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDL0308UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		73B2639B27FD8C2000BB6C4A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		73B57F1D27F5C98700B6D043 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		73B57F2027F5F6A400B6D043 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		73BE907027FBFA910069297C /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
 		73D79B7E27E1A98800E74D4B /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
@@ -174,7 +176,7 @@
 				7389CAD527D71C53000C6BD9 /* LaunchScreen.storyboard */,
 				736AC95928112DC600362ECE /* LoginSetting */,
 				7389CAD827D71C53000C6BD9 /* Info.plist */,
-				73B57F1D27F5C98700B6D043 /* GoogleService-Info.plist */,
+				7389B1A8282A20C900290219 /* GoogleService-Info.plist */,
 			);
 			path = TDL0308;
 			sourceTree = "<group>";
@@ -306,7 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7389CAD727D71C53000C6BD9 /* LaunchScreen.storyboard in Resources */,
-				73B57F1E27F5C98700B6D043 /* GoogleService-Info.plist in Resources */,
+				7389B1A9282A20C900290219 /* GoogleService-Info.plist in Resources */,
 				7389CAD427D71C53000C6BD9 /* Assets.xcassets in Resources */,
 				7389CAD227D71C50000C6BD9 /* Main.storyboard in Resources */,
 			);
@@ -316,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7389B1AA282A20C900290219 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +326,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7389B1AB282A20C900290219 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -12,9 +12,9 @@ import Floaty
 class ViewController: UIViewController {
     
     @IBOutlet weak var writeBtn: Floaty!
-    
 
-    let floaty = Floaty()
+
+    //let floaty = Floaty()
 
     
     private var wordList = [Word]() {
@@ -37,8 +37,7 @@ class ViewController: UIViewController {
 //        self.add20Items()
         self.loadWordList()
         writeBtn.buttonColor = UIColor.white
-        //writeBtn.itemTitleColor = UIColor.white
-        //writeBtn.tintColor = UIColor.white
+ 
         writeBtn.plusColor = UIColor.PlColor!
         writeBtn.handleFirstItemDirectly = true
         writeBtn.addItem(title: "") { _ in
@@ -104,6 +103,11 @@ extension ViewController: UITableViewDataSource{
         
         return cell
     }
+    
+    
+    
+    
+    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let AddWordViewController = segue.destination as? AddWordViewController{
